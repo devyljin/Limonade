@@ -1,0 +1,27 @@
+{
+    "name": "agrumev2/limonade-bundle",
+    "description": "Un bundle Symfony pour gérer la limonade",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ton Nom",
+            "email": "ton.email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^6.0",
+        "doctrine/orm": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agrume\\LimonadeBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "bundle": "Agrume\\Limonade\\LimonadeBundle"
+        }
+    }
+}

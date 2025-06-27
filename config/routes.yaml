@@ -1,0 +1,3 @@
+limonade:
+    resource: '@LimonadeBundle/Controller/'
+    type: annotation
