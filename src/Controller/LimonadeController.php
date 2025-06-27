@@ -1,5 +1,5 @@
 <?php
-namespace Agrume\LimonadeBundle\Controller;
+namespace Agrume\Limonade\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;

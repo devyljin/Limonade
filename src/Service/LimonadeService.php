@@ -1,5 +1,5 @@
 <?php
-namespace Agrume\LimonadeBundle\Service;
+namespace Agrume\Limonade\Service;
 
 class LimonadeService
 {

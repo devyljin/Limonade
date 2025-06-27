@@ -1,5 +1,5 @@
 <?php
-namespace Agrume\LimonadeBundle\Entity;
+namespace Agrume\Limonade\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
