@@ -1,5 +1,5 @@
 <?php
-namespace Agrume\LimonadeBundle;
+namespace Agrume\Limonade;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
