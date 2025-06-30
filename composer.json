@@ -21,7 +21,10 @@
     },
     "extra": {
         "symfony": {
-            "bundle": "Agrume\\Limonade\\LimonadeBundle"
+            "bundle": "Agrume\\Limonade\\LimonadeBundle",
+            "config": {
+                "services": "Resources/config/"
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 services:
   Agrume\Limonade\:
-    resource: '../../src/'
-    exclude: '../../src/{DependencyInjection,Entity,Migrations,Tests}'
+    resource: '../src'
+    exclude: '../src/{DependencyInjection,Entity,Migrations,Tests}'
 
   # Ou juste ce service :
   Agrume\Limonade\Service\LimonadeService:
