@@ -30,6 +30,7 @@ class  InternalAuthServiceAuthenticator extends AbstractExternalValidationAuthen
                     'HTTP_AUTHORIZATION' => 'Bearer ' . $token,
                 ]
             );
+
             $service = $this->authService->setMediator(new ServiceLoggerMediator($this->authService, $this->logger));
             $service->getMediator()->nautofy(new TokenValidationMediatorEvent($service));
             $response = $service->setEndpoint($validationTokenEndpoint)->processRequest($request);

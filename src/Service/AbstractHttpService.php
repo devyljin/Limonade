@@ -2,7 +2,7 @@
 
 namespace Agrume\Limonade\Service;
 
-use Agrume\Limonade\Core\Http\InterserviceRequest;
+use Agrume\Limonade\Http\InterserviceRequest;
 use Agrume\Limonade\Mediator\MediatorEvent\NullReturnedMediatorEvent;
 use Agrume\Limonade\Mediator\MediatorEvent\RequestMediatorEvent;
 use Agrume\Limonade\Mediator\MediatorInterface;
